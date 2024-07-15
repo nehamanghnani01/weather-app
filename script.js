@@ -1,4 +1,4 @@
-const APIKEY = "dd934d2fb0d5219fd561d8fff414f34f";
+const APIKEY = "<add_key_here>";
 const APIURL = `https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=${APIKEY}&units=metric`;
 
 async function checkWeather() {
