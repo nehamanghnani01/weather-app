@@ -16,7 +16,7 @@ async function checkWeather(cityName) {
         document.querySelector(".weather").style.display = "block";
     
 
-        var data = await response.json();
+        var data = await response.json();  // await because .json() is a promise object
         console.log(data);
 
         document.querySelector(".city").innerHTML = data.name;
